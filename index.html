@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +10,41 @@
     <link href="./css/normalize.css" rel="stylesheet"/>
     <link href="./css/reset.css" rel="stylesheet"/>
     <link href="./css/cabecalho.css" rel="stylesheet"/>
+    <link href="./css/banner.css" rel="stylesheet"/>
 </head>
 <body>
     <header class="cabecalho">
-        <img class="logo" alt="Lucas Bortolotto" src="#">
+        <img class="logo" alt="Lucas Bortolotto" src="./img/lucas-logo.png">
         <nav class="menu">
             <ul class="manu__lista">
-                <li class="menu__item"><a class="menu__link ativo" href="#">sobre mim</a></li>
-                <li class="menu__item"><a class="menu__link ativo" href="#">skills</a></li>
-                <li class="menu__item"><a class="menu__link ativo" href="#">hobbies</a></li>
-                <li class="menu__item"><a class="menu__link ativo" href="#">formação</a></li>
-                <li class="menu__item"><a class="menu__link ativo" href="#">projetos</a></li>
-                <li class="menu__item"><a class="menu__link ativo" href="#">lucas.bortolotto@gmail.com</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">sobre mim</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">skills</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">hobbies</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">formação</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">projetos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">lucas.bortolotto@gmail.com</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="banner">
+        <div class="banner__conteudo-texto">
+            <h1 class="banner__título"> Olá, meu nome é Lucas e construo páginas web</h1>
+            <p class="banner__paragrafo">Sou formado em Arquitetura e Urbanismo, área na qual trabalhei durante 4 anos.
+            Atualmente participo do Projeto Oracle ONE da Alura, onde tenho me capacitado no desenvolvimento 
+            Front End.</p>
+        
+            <div class="banner__links">
+                <ul class="banner__links-lista">
+                    <li class="banner__links-item"><a class="banner__link" href="https://github.com/lucasbortolotto">GitHub 🡥</a></li>
+                    <li class="banner__links-item"><a class="banner__link" href="https://www.linkedin.com/in/lucas-bortolotto-582068195/">LinkedIn 🡥</a></li>
+                    <li class="banner__links-item"><a class="banner__link" href="#">Currículo 🡥</a></li>
+                </ul>
+            </div> 
+        </div>
+        <div><img class="banner__foto-perfil" alt="Foto Lucas Bortolotto" src="./img/lucas-perfil.jpg"></div>
+
+    </section>
     
 </body>
 </html>
