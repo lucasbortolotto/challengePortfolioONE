@@ -12,6 +12,9 @@
     <link href="./css/reset.css" rel="stylesheet"/>
     <link href="./css/cabecalho.css" rel="stylesheet"/>
     <link href="./css/banner.css" rel="stylesheet"/>
+    <link href="./css/sobre-mim.css" rel="stylesheet"/>
+    <link href="./css/contato.css" rel="stylesheet"/>
+    <link href="./css/rodape.css" rel="stylesheet"/>
 </head>
 <body>
     <header class="cabecalho">
@@ -51,6 +54,8 @@
         <h2 class="sobre-mim__titulo">Sobre mim</h2>
         <p class="sobre-mim__paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
         <p class="sobre-mim__assinatura">LucasBortolotto</p>
     </section>
@@ -126,23 +131,23 @@
         <form class="contato__formulario">
             <div>
                 <div class="contato__input-padrao">
-                    <label for="contato__nome-sobrenome">Nome</label>
-                    <input type="text" placeholder="Nome Sobrenome" required>
+                    <label class="contato__etiqueta" for="contato__nome-sobrenome">Nome</label>
+                    <input class="contato__input" type="text" placeholder="Nome Sobrenome" required>
                 </div>
 
                 <div class="contato__input-padrao">
-                    <label for="contato__email">E-mail</label>
-                    <input type="email" placeholder="exemplo@dominio.com" required>
+                    <label class="contato__etiqueta" for="contato__email">E-mail</label>
+                    <input class="contato__input" type="email" placeholder="exemplo@dominio.com" required>
                 </div>
 
                 <div class="contato__input-padrao">
-                    <label for="contato__assunto">Assunto</label>
-                    <input type="text" required>
+                    <label class="contato__etiqueta" for="contato__assunto">Assunto</label>
+                    <input class="contato__input" type="text" required>
                 </div>
 
                 <div class="contato__input-mensagem">
-                    <label for="contato__mensagem">Mensagem</label>
-                    <textarea cols="50" rows="7" required></textarea>
+                    <label class="contato__etiqueta" for="contato__mensagem">Mensagem</label>
+                    <textarea class="contato__caixa-mensagem" cols="50" rows="7" required></textarea>
                 </div>
 
                 <input type="submit" class="contato__enviar" value="Enviar mensagem">
